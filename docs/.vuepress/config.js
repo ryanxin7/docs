@@ -7,22 +7,24 @@ module.exports = {
     title: 'Ryan’s Notebook',
     description: '潇洒坦荡，干净纯良',
     dest: 'docs/.vuepress/dist',
-    port: '7777',
+    port: '8080',
     head: [
         ['link', {rel: 'icon', href: '/img/favicon.ico'}],
 		['link', {rel: 'stylesheet', href: '/css/style.css'}]
     ],
-	plugins: [
-    [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp, lang) => {
-
-          return moment(timestamp).format("LLLL")
-        }
-      }
-    ]
-  ],
+  	plugins: {
+    '@vuepress/last-updated': {
+      transformer: (timestamp) => moment(timestamp).format("LLLL")
+      },
+      '@vssue/vuepress-plugin-vssue': {
+       platform: 'github-v4',
+       owner: 'ryanxin7',
+       repo: 'docs',
+       clientId: 'ec2927e4753f7205af01',
+       clientSecret: 'c4a9086f1f4fb5fb8a75b9906768818c7a0c1cfa',
+       autoCreateIssue: true          
+      },
+    },
     markdown: {
         lineNumbers: true
     },
@@ -42,6 +44,7 @@ module.exports = {
         editLinkText: '在 GitHub 上编辑此页 ！'
     }
 }
+
 
 
  

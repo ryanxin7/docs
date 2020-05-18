@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vssue/api-github-v4": "^1.4.0",
+    "@vssue/vuepress-plugin-vssue": "^1.4.4",
     "moment": "^2.25.3",
     "vuepress-theme-antdocs": "^1.0.1"
   }
