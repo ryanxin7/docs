@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.25.3",
     "vuepress-theme-antdocs": "^1.0.1"
   }
 }
