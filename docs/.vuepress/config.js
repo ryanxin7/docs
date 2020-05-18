@@ -6,7 +6,7 @@ module.exports = {
 
     title: 'Ryan’s Notebook',
     description: '潇洒坦荡，干净纯良',
-    dest: './dist',
+    dest: 'docs/.vuepress/dist',
     port: '7777',
     head: [
         ['link', {rel: 'icon', href: '/img/favicon.ico'}],
@@ -31,7 +31,6 @@ module.exports = {
         nav: require("./nav.js"),
         sidebar: require("./sidebar.js"),
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
         searchMaxSuggestoins: 10,
         serviceWorker: {
             updatePopup: {
