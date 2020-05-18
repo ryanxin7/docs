@@ -1,0 +1,12 @@
+
+#app .navbar .home-link span:before{
+    display: inline-block;
+    content:'';
+    width: 3rem;
+    height:2.4rem;
+    background:url('../img/bear.png') no-repeat;
+    background-size:80% 100%;
+    vertical-align: middle;
+    text-shadow: 0 0 black;
+    box-shadow: 0 0 black;
+}
