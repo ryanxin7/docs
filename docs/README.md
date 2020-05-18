@@ -4,22 +4,13 @@ heroImage: /img/logo.png
 actionText: 开始学习 ❤️️
 actionLink: /linux/
 features:
-- title: 简洁至上
-
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: 详细整理
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 知识总结
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-
 - title: Ansible & Jenkins
 
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+  details: 	提高工作的效率、准确度、减少维护的成本、 重复性工作 ansible jenkins gitlab 实现生产环境自动发布。
 - title: Docker & K8S
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+  details: Docker 是一个开源的应用容器引擎，可实现虚拟化。k8s是一个开源的容器集群管理系统，可以实现容器集群的自动化部署、自动扩缩容、维护等功能。
 - title: RDBMS & NoSQL
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-
+  details: ，RDBMS关注一致性，而NoSQL系统则关注可用性。
 footer:   Copyright © 2020 Ryan’s Blog - All Rights Reserved 🚨
 ---
 
