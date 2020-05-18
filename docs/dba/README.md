@@ -76,7 +76,13 @@ NewSQL : 新型的分布式解决方案
 
 <br>
 
+[✅  DBA-DAY01 第一章 MySQL简介及安装](/dba/notes/dba01.html ) 
 
+[✅  DBA-DAY02 第二章 体系结构及管理](/dba/notes/dba02.html ) 
+
+[✅  DBA-DAY03 第三章 SQL基础应用](/dba/notes/dba03.html ) 
+
+[✅  DBA-DAY04 第四章 索引及执行计划](/dba/notes/dba04-2.html ) 、[ 第三章  SQL基础应用](/dba/notes/dba04.html ) 
 
 ::: warning  版权声明
 

@@ -24,6 +24,7 @@ module.exports = {
        clientSecret: 'c4a9086f1f4fb5fb8a75b9906768818c7a0c1cfa',
        autoCreateIssue: true          
       },
+      '@vuepress/back-to-top': true
     },
     markdown: {
         lineNumbers: true
