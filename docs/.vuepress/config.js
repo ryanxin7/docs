@@ -1,5 +1,5 @@
 const moment = require('moment');
-
+const secret = require("./secret");
 moment.locale("zh-cn");
 
 module.exports = {
@@ -20,8 +20,8 @@ module.exports = {
        platform: 'github-v4',
        owner: 'ryanxin7',
        repo: 'docs',
-       clientId: 'ec2927e4753f7205af01',
-       clientSecret: 'c4a9086f1f4fb5fb8a75b9906768818c7a0c1cfa',
+       clientId: 'secret.clientId',
+       clientSecret: 'secret.clientSecret',
        autoCreateIssue: true          
       },
       '@vuepress/back-to-top': true
