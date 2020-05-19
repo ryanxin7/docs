@@ -67,5 +67,5 @@
 
 :::
 
-
+<img :src="$withBase('/img/DBA-DAY01.png')" alt="favicon">
 
