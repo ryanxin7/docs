@@ -1,13 +1,48 @@
 module.exports = [
 		{
-		  title:'Linux 基础',
+		  title:'你好 世界！',
+		  collapsable: true,
+		  children:[
+			'/linux/notes/hello-world',
+		  ]
+		},		
+		{
+		  title:'Linux 基础知识',
 		  collapsable: true,
 		  children:[
 			'/linux/notes/linux1.md',
 		  ]
+		},		
+		{
+		  title:'Linux的目錄結構特點',
+		  collapsable: true,
+		  children:[
+			'/linux/notes/Linux的目錄結構特點.md',
+		  ]
+		},		
+	{
+		  title:'Rsync 配置与部署',
+		  collapsable: true,
+		  children:[
+			'/linux/notes/Rsync服务配置与部署.md',
+		  ]
 		},
 	{
-		  title:'远程服务',
+		  title:'服务器集群架构之一',
+		  collapsable: true,
+		  children:[
+			'/linux/notes/服务器集群架构之一.md',
+		  ]
+		},
+   {
+		  title:'集群主机名IP地址规划',
+		  collapsable: true,
+		  children:[
+			'/linux/notes/集群主机名IP地址规划.md',
+		  ]
+		},
+	{
+		  title:'远程管理服务',
 		  collapsable: true,
 		  children:[
 			'/linux/notes/linux2.md',
