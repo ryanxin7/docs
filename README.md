@@ -1,3 +1,3 @@
 
 
-<img src="index.png" alt="demo" style="zoom:80%;" />
+<img src="index.png" alt="demo" style="zoom:90%;" />
