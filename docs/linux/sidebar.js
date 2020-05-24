@@ -14,10 +14,10 @@ module.exports = [
 		  ]
 		},		
 		{
-		  title:'Linux的目錄結構特點',
+		  title:'Linux的目录结构',
 		  collapsable: true,
 		  children:[
-			'/linux/notes/Linux的目錄結構特點.md',
+			'/linux/notes/Linux的目录结构.md',
 		  ]
 		},		
 	{
