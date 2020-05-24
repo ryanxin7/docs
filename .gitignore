@@ -107,4 +107,10 @@ dist
 secret.js
 
 # 隐藏文章
-./docs
+.vuepress/
+.docs
+docs
+..docs
+deploy.sh
+.gitignore
+
