@@ -113,4 +113,5 @@ docs
 ..docs
 deploy.sh
 .gitignore
-
+.gitignore
+docs/**/*
